@@ -30,11 +30,8 @@ function sorting(arrNumber) {
     var listSort = sorting(arrNumber); // list sort berisi fungsi sorting
     var countHighest = getTotal(listSort); // count highest berisi fungsi getTotal
 
-    let arr=[3,6,12,56,3,7]
-
-    console.log(getTotal(sorting(arr)))
     
-    return countHighest;
+    return  `angka paling besar adalah ${listSort[0]} dan jumlah kemunculan sebanyak ${countHighest}`
   }
   
   console.log(mostFrequentLargestNumbers([2, 8, 4, 6, 8, 5, 8, 4]));
